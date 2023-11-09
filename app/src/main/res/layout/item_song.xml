@@ -29,7 +29,9 @@
             android:layout_marginBottom="4dp"
             android:layout_weight="0"
             android:text="Titre"
-            android:textColor="@color/colorOnPrimary" />
+            android:textColor="@color/colorOnPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"

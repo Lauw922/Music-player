@@ -5,7 +5,13 @@
          <item name="colorPrimary">@color/colorPrimary</item>
          <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
          <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
     </style>
 
     <style name="Theme.Musicplayer" parent="Base.Theme.Musicplayer" />
+    <style name="seekBar" parent="Theme.Musicplayer">
+        <item name="colorControlActivated"> @color/black</item>
+        <item name="colorControlNormal">@color/colorOnPrimary</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
 </resources>
